@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  position: relative;
+  align-items: center;
+}
+.navbar_left_list {
+  list-style: none;
+}
+.navbar_left_list .navbar_items {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.navbar_left_list .nav-drop-list {
+  list-style: none;
+  display: none;
+}
+.navbar_left_list .nav-drop-list:hover .nav-drop-list {
+  display: block;
+  position: absolute;
+}
+.navbar .nav-logo {
+  cursor: pointer;
+}
+.navbar_right_list {
+  list-style: none;
+}
+.navbar_right_list .navbar_right_items {
+  display: inline-block;
+}
+.navbar_right_list .navbar_right_items .nav-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+.navbar_right_list .navbar_right_items .nav-link .nav-counter {
+  position: absolute;
+  top: 20%;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 25px;
+  width: 1.1rem;
+  text-align: center;
+}
+
+.nav-line {
+  width: 90%;
+  margin: 1rem auto;
+  color: beige;
+}
+
+/*# sourceMappingURL=main.css.map */
